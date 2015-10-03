@@ -1,2 +1,2 @@
-# god-is-love
+# God-is-love
 My First Repository in GitHub
