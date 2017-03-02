@@ -1,21 +1,31 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<title>Challenge</title>
-	<link rel="stylesheet" type="text/css" href="main.css">
+	<title> HTTP form submission </title>
+	<style> 
+		id.form {
+			align: center;	
+		}
+		table.form-table {
+			align: center
+		}
+	</style>
+		
 </head>
 <body>
-	<div>
-	<h1>I'm a student</h1>
-	<p> I love to learn, a lot.</p>
-	<h2>Skills</h2>
-	<ul>
-		<li>Active Thinking</li>
-		<li>Asking Doubts</li>
-		<li>Not easily satisfied with something(a bad habit)</li>
-	</ul>
-	<h2>Contact Info</h2>
-	Wikipedia : <a href="https://en.wikipedia.org/wiki/User_talk:Kaartic">User Talk : Kaartic</a>
+	<div id="form">
+	<form metod="post" submit="null">
+		<table id ="form-table">
+			<tr> 
+				<td> Text
+				<td> <input type="text">
+			</tr>
+			<tr colspan ="2">
+				<td> <input type="submit" action="null"> Submit </input>
+			</tr>
+		</table>
+	</form>
 	</div>
 </body>
 </html>
+			
+
