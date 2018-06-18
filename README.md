@@ -3,4 +3,4 @@ My First Repository in GitHub
 
 ## Test
 
-	[Link to test file](test-dir/dest-file)
+[Link to test file](test-dir/dest-file)
